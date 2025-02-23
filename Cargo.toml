@@ -1,0 +1,14 @@
+[package]
+name = "shax"
+version = "0.1.1"
+edition = "2021"
+description = "A work-in-progress chess engine"
+authors = ["Andrei Kolotilov <a.kolotilov@internet.ru>"]
+repository = "https://github.com/akolotilov/shax"
+readme = "README.md"
+license-file = "LICENSE.md"
+
+[dependencies]
+bitflags = "2.8.0"
+strum = "0.27.1"
+strum_macros = "0.27.1"
