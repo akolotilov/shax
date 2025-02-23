@@ -38,24 +38,3 @@ fn main() -> Result<(), Box<dyn Error>> {
 }
 ```
 
-## CLI
-
-Since there’s no UCI yet, a basic CLI lets you play manually. Enter moves in Long Algebraic Notation:
-
-- `e2e4` (pawn move)
-- `e1g1` (castling)
-- `a7a8q` (promotion to queen)
-
-```
-$ cargo run
-White to move
-r n b q k b n r
-p p p p p p p p
-. . . . . . . .
-. . . . . . . .
-. . . . . . . .
-. . . . . . . .
-P P P P P P P P
-R N B Q K B N R
-> e2e4
-```
